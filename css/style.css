@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 1.7em 0.6em;
+    box-sizing: border-box;
+}
+.body{
+    background-color: #EEE;
+    padding:0.5em 1em;
+    border-radius: 5px;
+
+}
+header{
+    text-align: center;
+}
+div #img-div {
+    text-align: center;
+    display: block;
+    background-color: #FFF;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+    margin-right: auto;
+	align-content: center;
+  max-width: 100%;
+  height: auto;
+ 
+  
+}
+
+@media screen (max-width: 800px){
+}
