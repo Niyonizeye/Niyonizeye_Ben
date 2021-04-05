@@ -12,6 +12,16 @@ body{
 header{
     text-align: center;
 }
+header h1{
+    width: 100%;
+    margin: 0.7em auto 0;
+    padding: 0.6em 0;
+    font-size: 2.2em;
+}
+header p{
+    margin: 0 auto;
+    padding: 1em 0 1.3em;
+}
 div #img-div {
     text-align: center;
     display: block;
@@ -27,6 +37,26 @@ div #img-div {
   height: auto;
  
   
+}
+
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    color: #333;
+    line-height: 1.6;
+    padding: 2em 0;
+}
+#tribute-info ul, article p {
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    width: 40em;
+    
+}
+.link{
+    text-align: center;
 }
 
 @media screen (max-width: 800px){
